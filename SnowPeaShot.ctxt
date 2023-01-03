@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SnowPeaShot
+comment0.text=\r\n\ This\ is\ the\ Projectile\ that\ the\ Snowpea\ shoots.\r\n\ \r\n\ @author\ Ethan\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=SnowPeaShot()
+comment1.text=\r\n\ Constructor\ for\ the\ SnowPeaShot.\ Sets\ the\ damage.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ SnowPeaShot.\ Calls\ upon\ the\ Projectile\ superclass'\ act\ method.\r\n
+comment3.params=
+comment3.target=void\ hitZombie()
+comment3.text=\r\n\ Method\ to\ hit\ a\ zombie\ and\ deal\ damage\ to\ it.\r\n\ Detects\ a\ zombie\ and\ does\ damage\ to\ it\ using\ the\ takeDamage\ method.\r\n\ Once\ it\ hits\ the\ zombie,\ it\ removes\ itself\ from\ the\ world.\ Also\ calls\r\n\ upon\ the\ slowMeDown\ method\ in\ the\ Zombie\ class\ to\ slow\ the\ Zombie\ down.\r\n\ \r\n
+numComments=4

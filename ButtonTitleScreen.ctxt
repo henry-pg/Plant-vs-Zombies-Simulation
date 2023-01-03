@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ButtonTitleScreen
+comment0.text=\r\n\ ButtonTitleScreen\ is\ the\ subclass\ of\ Button\ that\ contains\ a\ sound\ and\ images.\r\n\ \r\n\ @author\ Charis,\ Jonathan\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=ButtonTitleScreen()
+comment1.text=\r\n\ Main\ constructor\ for\ the\ ButtonTitleScreen\ class.\ ButtonTitleScreen\ is\ the\ subclass\ of\ Button.\r\n\ Check\ the\ superclass.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ is\ called\ when\ the\ the\ code\ is\ running.\r\n\ Checks\ to\ see\ if\ the\ actor\ has\ been\ clicked\ on\ by\ a\ mouse.\r\n\ Changes\ the\ image\ when\ clicked\ for\ a\ brief\ moment.\r\n\ It\ also\ passes\ on\ the\ variable's\ values\ as\ well\ as\ changes\ worlds.\r\n
+numComments=3

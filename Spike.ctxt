@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Spike
+comment0.text=\r\n\ This\ is\ the\ Projectile\ that\ the\ Cactus\ shoots.\r\n\ \r\n\ @author\ Ethan,\ Johnathan\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=Spike()
+comment1.text=\r\n\ Constructor\ for\ the\ Spike.\ Sets\ the\ damage,\ speed,\ and\ zombie\ counter\ variables.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ Spike.\ Calls\ upon\ the\ Projectile\ superclass'\ act\ method.\r\n
+comment3.params=
+comment3.target=void\ hitZombie()
+comment3.text=\r\n\ Method\ to\ hit\ a\ zombie\ and\ deal\ damage\ to\ it.\r\n\ Detects\ a\ zombie\ and\ does\ damage\ to\ it\ using\ the\ takeDamage\ method.\r\n\ Does\ not\ remove\ itself\ until\ it\ has\ hit\ three\ Zombies.\r\n
+comment4.params=z
+comment4.target=boolean\ gotHit(Zombie)
+comment4.text=\r\n\ Method\ to\ check\ if\ a\ Zombie\ has\ been\ hit\ in\ order\ to\ prevent\ the\ same\ \r\n\ Zombie\ from\ being\ hit\ multiple\ times.\r\n\ \r\n\ @param\ z\ \ \ \ \ \ \ \ \ The\ Zombie\ that\ is\ being\ checked\r\n\ @return\ boolean\ \ Returns\ true\ if\ the\ Zombie\ has\ already\ been\ hit.\ Returns\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ false\ if\ the\ Zombie\ has\ not\ been\ hit\ yet.\r\n
+numComments=5

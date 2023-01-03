@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SeedPacket
+comment0.text=\r\n\ Seedpacket\ is\ a\ Greenfoot\ Actor\ that\ will\ demonstrate\ where\ a\ plant\ will\ spawn.\ It\ will\ fall\ from\ the\ sky,\ land\ on\ a\ lawn\ tile\ and\ slowly\ lose\ transparency\ over\ the\ course\ of\ a\ few\ seconds.\ \r\n\ \r\n\ @author\ Johnathan,\ Henry\ \r\n\ @version\ April\ 2022\r\n
+comment1.params=finalY
+comment1.target=SeedPacket(int)
+comment1.text=\r\n\ Initializes\ seedpacket.\ \r\n\ \r\n\ @param\ finalY\ \ \ \ \ The\ y-value\ it\ will\ stop\ itself\ and\ slowly\ removes\ the\ transparency.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ It\ will\ contrinue\ to\ drop\ until\ its\ final\ y\ destination\ is\ reached\ unless\ the\ game\ is\ over\r\n
+comment3.params=
+comment3.target=void\ drop()
+comment3.text=\r\n\ Checks\ if\ the\ current\ y-coord\ is\ above\ the\ final\ y-coord.\ If\ it\ is,\ it\ will\ continue\ to\ drop,\ else,\ it\ will\ stop\ and\ slowly\ lose\ transparency\r\n
+comment4.params=
+comment4.target=void\ spawnPlant()
+comment4.text=\r\n\ A\ contract\ to\ spawn\ the\ respective\ plant.\r\n
+comment5.params=
+comment5.target=void\ gameOverTrue()
+comment5.text=\r\n\ Sets\ game\ over\ to\ true.\r\n
+comment6.params=
+comment6.target=void\ gameOverFalse()
+comment6.text=\r\n\ Sets\ game\ over\ to\ false.\r\n
+numComments=7

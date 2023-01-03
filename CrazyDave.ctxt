@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=CrazyDave
+comment0.text=\r\n\ CrazyDave\ is\ a\ Greenfoot\ Actor\ that\ shoots\ zombies\ every\ few\ seconds.\ It\ will\ aim\ at\ the\ target\ zombie\ when\ it\ is\ ready\ to\ shoot.\r\n\ \r\n\ @author\ Ethan,\ Johnathan\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=CrazyDave()
+comment1.text=\r\n\ Initializes\ CrazyDave's\ values.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ CrazyDave\ will\ spawn\ in\ with\ his\ transparency\ increasing\ until\ he\ reaches\ to\ full\ transparency.\ He\ will\ then\ aim\ and\ shoot\ at\ zombies\ when\ his\ cooldown\ timer\ resets.\ He\ will\ randomly\ make\ noises\ thorughout\ the\ simulation.\r\n\ CrazyDave\ also\ checks\ the\ state\ of\ the\ game\ -\ the\ win\ and\ loss\ conditions.\ If\ he\ is\ still\ alive\ after\ apocalypse,\ he\ will\ initiate\ the\ game\ win\ and\ a\ jingle.\ If\ he\ is\ dead\ in\ any\ point\ of\ the\ simulation,\ he\ will\ initiate\ the\ game\ loss\ and\ a\ noise.\r\n
+comment3.params=
+comment3.target=boolean\ getAlive()
+comment3.text=\r\n\ Returns\ his\ alive\ variable\r\n\ \r\n\ @return\ boolean\ \ True\ if\ CrazyDave\ is\ alive\ and\ False\ if\ not.\r\n
+comment4.params=touchingZombie
+comment4.target=void\ setTouchingZombie(boolean)
+comment4.text=\r\n\ Sets\ his\ value\ 'touchingZombie'\ to\ the\ parameter's\ value.\r\n\ \r\n\ @param\ touchingZombie\ \ \ \ Whether\ CrazyDot\ (CrazyDot\ is\ in\ CrazyDave)\ is\ touching\ a\ zombie\r\n
+comment5.params=
+comment5.target=boolean\ findTarget()
+comment5.text=\r\n\ CrazyDave\ will\ seek\ the\ nearest\ target\ and\ rotating\ towards\ it.\r\n
+comment6.params=
+comment6.target=void\ shootZombie()
+comment6.text=\r\n\ Shoots\ his\ gun;\ fires\ a\ bullet\r\n
+comment7.params=
+comment7.target=void\ playSound()
+comment7.text=\r\n\ Randomly\ plays\ his\ directory\ of\ Dave\ sounds.\r\n
+numComments=8

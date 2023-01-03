@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=DiscoZombie
+comment0.text=\r\n\ Refer\ to\ the\ Zombie\ super\ class.\ DiscoZombie\ is\ a\ Greenfoot\ Actor\ that\ is\ a\ tanky\ zombie.\ It\ spawns\ in\ DancerZombies\ through\ its\ groovy\ moves.\ It\ will\ stop\ for\ a\ second\ to\ spawn\ in\ the\ Dancers.\ The\ spawn\ Dancer\ dance\ is\ random.\r\n\ \r\n\ @author\ Johnathan\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=DiscoZombie()
+comment1.text=\r\n\ Constructor\ for\ DiscoZombie's\ values\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Refer\ to\ the\ Zombie\ act\ method.\ It\ has\ a\ chance\ to\ spawn\ Dancer\ Zombies.\ Once\ it\ spawns\ the\ zombies,\ there\ is\ a\ cooldown\ before\ it\ can\ spawn\ another\ set.\ \r\n
+comment3.params=
+comment3.target=void\ spawnDancers()
+comment3.text=\r\n\ Spawns\ dancers.\ Checks\ which\ lane\ DiscoZombie\ is\ in\ and\ determines\ whether\ it\ will\ spawn\ 3\ or\ 4\ Dancers\ (due\ to\ the\ adjacent\ lanes\ not\ being\ there\ in\ the\ top\ and\ bottom\ row).\r\n
+comment4.params=
+comment4.target=void\ stop()
+comment4.text=\r\n\ Stops\ the\ DiscoZombie\ from\ moving\ and\ changes\ the\ sprite\ to\ a\ DancingDisco\r\n
+comment5.params=speed
+comment5.target=void\ walk(double)
+comment5.text=\r\n\ Allows\ the\ zombie\ to\ walk\ in\ a\ janky\ way.\r\n\ \r\n\ @param\ speed\ \ \ \ \ The\ speed\ of\ which\ the\ zombie\ will\ move\r\n
+comment6.params=
+comment6.target=java.lang.String\ getName()
+comment6.text=\r\n\ Will\ return\ the\ type\ of\ zombie\r\n\ \r\n\ @return\ String\ \ \ returns\ the\ type\ of\ the\ zombie\ \r\n
+comment7.params=
+comment7.target=void\ die()
+comment7.text=\r\n\ Checks\ if\ its\ health\ is\ below\ or\ equal\ to\ 0\ and\ will\ remove\ the\ \r\n\ zombie\ from\ the\ world\ if\ it\ fulfills\ the\ requirement.\r\n
+numComments=8

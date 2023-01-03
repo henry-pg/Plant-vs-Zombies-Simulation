@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MultiplierButton
+comment0.text=\r\n\ This\ class\ is\ a\ button\ for\ the\ textbox\ class\ so\ that\ users\ can\ change\ the\ variables/\ values\ of\ plants\ and\ zombies\r\n\ in\ the\ simulation\r\n\ \r\n\ @author\ (Henry)\ \r\n\ @version\ (April\ 2022)\r\n
+comment1.params=isRight
+comment1.target=MultiplierButton(boolean)
+comment1.text=\r\n\ Constructor\ that\ initializes\ the\ button\ and\ draws\ it.\ \r\n\ \r\n\ @param\ isRight\ This\ is\ a\ boolean\ that\ determines\ if\ the\ class\ draws\ a\ left\ facing\ button\ or\ a\ right\ facing\ button.\r\n
+comment2.params=
+comment2.target=boolean\ isClicked()
+comment2.text=\r\n\ Method\ that\ checks\ to\ see\ if\ the\ button\ is\ clicked\r\n\ \r\n\ @return\ boolean\ Returns\ true\ if\ the\ button\ is\ clicked,\ False\ otherwise.\ \r\n
+numComments=3

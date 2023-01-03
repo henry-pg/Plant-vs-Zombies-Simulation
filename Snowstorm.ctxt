@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Snowstorm
+comment0.text=\r\n\ Snow\ storm\ class\ for\ the\ events.\ Slows\ down\ all\ zombies\ and\ plants\ shooting\ when\ spawned\ into\ world.\ This\ class\ \r\n\ also\ spawns\ in\ snow\ objects\ that\ simulate\ the\ typical\ snowfall\ in\ a\ snow\ storm.\ A\ snowflake\ on\ the\ top\ right\ corner\ \r\n\ is\ there\ to\ indicate\ the\ occurence\ of\ this\ event.\r\n\ \r\n\ @author\ (Johnathan,\ Henry)\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=Snowstorm()
+comment1.text=\r\n\ Constructor\ that\ calls\ the\ super\ class'\ constructor\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ that\ gets\ all\ plants\ and\ zombies\ objects\ and\ slows\ all\ of\ them\ down.\r\n\ Also\ spawns\ snow\ objects\ based\ on\ the\ frequency.\ \r\n
+comment3.params=w
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment3.text=\r\n\ Added\ to\ world\ method\ that\ sets\ zombie\ methods\r\n\ \r\n\ @param\ w\ This\ is\ an\ argument\ for\ the\ world.\r\n
+comment4.params=
+comment4.target=void\ drawSnow()
+comment4.text=\r\n\ Generates\ the\ snow\ randomly\r\n
+numComments=5

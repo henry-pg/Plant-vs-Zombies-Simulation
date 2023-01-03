@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GameWinScreen
+comment0.text=\r\n\ The\ GameWinScreen\ class\ contains\ a\ button\ that\ lets\ the\ user\ return\r\n\ to\ the\ TitleScreen.\ It\ is\ called\ on\ when\ the\ simulation\ is\ over.\r\n\ \r\n\ @author\ Charis\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=GameWinScreen()
+comment1.text=\r\n\ Constructor\ for\ the\ GameWinScreen\ class.\r\n\ Changes\ the\ button1\ variable\ to\ false\ so\ that\ its\ possible\ to\r\n\ add\ the\ specified\ button.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ is\ called\ when\ the\ the\ code\ is\ running.\r\n\ Button1\ is\ set\ to\ true\ to\ prevent\ the\ world\ from\ adding\ buttons\ indefinitely.\r\n
+numComments=3

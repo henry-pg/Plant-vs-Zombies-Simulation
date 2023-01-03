@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PoisonPeaShot
+comment0.text=\r\n\ This\ is\ the\ Projectile\ that\ the\ Poisonpea\ shoots.\r\n\ \r\n\ @author\ Ethan\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=PoisonPeaShot()
+comment1.text=\r\n\ Constructor\ for\ the\ PoisonPeaShot.\ Sets\ the\ PoisonPeaShot's\ damage\ and\ \r\n\ the\ poison\ damage.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ PoisonPeaShot.\ The\ PoisonPeaShot\ moves\ horozontially\ at\ a\r\n\ constant\ speed\ until\ it\ either\ hits\ a\ Zombie\ or\ exits\ the\ world.\ It\ also\r\n\ poisons\ the\ Zombie\ that\ it\ hits.\r\n
+comment3.params=
+comment3.target=void\ poisonZombie()
+comment3.text=\r\n\ Method\ to\ poison\ zombies.\ Calls\ the\ poison\ method\ in\ the\ Zombie\ class.\r\n
+numComments=4

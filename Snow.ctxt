@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Snow
+comment0.text=\r\n\ This\ object\ is\ used\ to\ simulate\ snow\ for\ the\ Snowstorm\ object.\r\n\ \r\n\ @author\ (Henry)\r\n\ @version\ (April\ 2022)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ method\ that\ makes\ snow\ fall\ and\ removes\ itself\ if\ it\ is\ outside\ of\ the\ world.\r\n
+numComments=2

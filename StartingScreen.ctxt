@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=StartingScreen
+comment0.text=\r\n\ StartingScreen\ is\ the\ subclass\ of\ the\ world\ that\ the\ code\ first\ calls\ on\ when\ it\ runs.\r\n\ It\ contains\ the\ starting\ music\ and\ some\ text\ that\ informs\ the\ user\ how\ to\ move\ to\ the\ next\ screen.\r\n\ \r\n\ @author\ Charis,\ Jonathan\ \r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=StartingScreen()
+comment1.text=\r\n\ The\ main\ constructor\ of\ the\ Starting\ Screen\ class\ that\ initializes\ the\ variables\ and\ sounds.\r\n
+comment2.params=
+comment2.target=void\ started()
+comment2.text=\r\n\ Starts\ music\ when\ code\ is\ running.\r\n
+comment3.params=
+comment3.target=void\ stopped()
+comment3.text=\r\n\ Stops\ the\ music\ when\ the\ code\ is\ paused.\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ method\ is\ called\ when\ the\ the\ code\ is\ running.\r\n\ Button1\ is\ set\ to\ true\ to\ prevent\ the\ world\ from\ adding\ buttons\ indefinitely.\r\n\ Changes\ the\ world\ when\ spacebar\ is\ pressed.\r\n
+numComments=5

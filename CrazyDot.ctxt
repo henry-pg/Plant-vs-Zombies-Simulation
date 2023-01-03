@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CrazyDot
+comment0.text=\r\n\ CrazyDot\ is\ a\ Greenfoot\ Actor\ that\ will\ hide\ under\ CrazyDave.\ It\ checks\ if\ it\ is\ touching\ a\ zombie\ to\ create\ a\ nicer\ hitbox\ for\ CrazyDave\ (to\ check\ if\ he\ gets\ hit\ by\ a\ zombie)\r\n\ \r\n\ @author\ Johnathan\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Checks\ if\ it\ is\ touching\ a\ zombie\ and\ if\ CrazyDave\ is\ still\ alive.\ If\ true,\ it\ will\ set\ CrazyDave's\ touchingZombie\ to\ true.\r\n
+numComments=2

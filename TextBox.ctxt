@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TextBox
+comment0.text=\r\n\ This\ is\ the\ class\ for\ the\ textbox\ objects\ that\ have\ an\ editable\ and\ displayable\ value.\ \r\n\ This\ is\ used\ for\ users\ to\ change\ plant\ and\ zombie\ values.\ \r\n\ \r\n\ @author\ (Henry,\ Jonathan)\ \r\n\ @version\ (April\ 2022)\r\n
+comment1.params=v
+comment1.target=TextBox(double)
+comment1.text=\r\n\ Constructor\ that\ initializes\ all\ of\ the\ values\ and\ also\ creates\ the\ left\ button\ and\ right\ button\ for\ the\ textbox.\r\n\ \r\n\ @param\ v\ This\ argument\ is\ to\ set\ a\ value\ for\ the\ textbox\ to\ display.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ is\ the\ act\ method.\ It\ checks\ to\ see\ if\ any\ buttons\ are\ being\ pressed\ and\ it\ updates\ itself\ accordingly.\ \r\n\ Sounds\ are\ also\ played\ accordingly.\ \r\n
+comment3.params=
+comment3.target=void\ decreaseValue()
+comment3.text=\r\n\ Method\ to\ decrease\ the\ value\ of\ that\ the\ textbox\ displays.\ Sounds\ are\ also\ played\ accordingly.\ \r\n
+comment4.params=
+comment4.target=void\ increaseValue()
+comment4.text=\r\n\ Method\ to\ increase\ the\ value\ of\ that\ the\ textbox.\ Sounds\ are\ also\ played\ accordingly.\ \r\n
+comment5.params=
+comment5.target=double\ getValue()
+comment5.text=\r\n\ Method\ to\ return\ value\ of\ textbox.\r\n\ \r\n\ @return\ double\ Returns\ the\ value\ of\ the\ textbox.\r\n
+comment6.params=v
+comment6.target=void\ setValue(double)
+comment6.text=\r\n\ Method\ to\ set\ value\ of\ textbox.\r\n\ \r\n\ @param\ v\ Value\ that\ textbox\ will\ be\ set\ to.\r\n
+numComments=7

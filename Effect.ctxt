@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Effect
+comment0.text=\r\n\ Effect\ is\ a\ Greenfoot\ Actor\ that\ creates\ a\ world-wide\ event.\r\n\ \r\n\ @author\ Mr.\ Cohen\r\n\ @version\ April\ 2022\r\n
+comment1.params=totalActs
+comment1.target=Effect(int)
+comment1.text=\r\n\ Constructor\ for\ Effect\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Will\ count\ down\ the\ acts\ while\ changing\ the\ image\ transparency\ and\ removes\ object\ if\ the\ act\ counter\ reaches\ a\ certain\ number\r\n
+numComments=3

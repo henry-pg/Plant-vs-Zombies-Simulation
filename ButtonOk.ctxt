@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ButtonOk
+comment0.text=\r\n\ ButtonOk\ is\ the\ subclass\ of\ Button\ that\ contains\ a\ sound\ as\ well\ as\r\n\ multiple\ other\ parameters\ and\ variables.\ It\ changes\ to\ other\ worlds\ while\ also\ storing\ and\ passing\r\n\ on\ parameters\ to\ the\ worlds.\r\n\ \r\n\ @author\ Charis,\ Jonathan,\ Henry\r\n\ @version\ April\ 2022\r\n
+comment1.params=plantHealth\ plantDamage\ plantAttackSpeed\ zombieHealth\ zombieSpeed\ zombieDamage
+comment1.target=ButtonOk(double,\ double,\ double,\ double,\ double,\ double)
+comment1.text=\r\n\ Main\ constructor\ for\ the\ ButtonOk\ class.\ ButtonOk\ is\ the\ subclass\ of\ Button\ that\ \r\n\ takes\ in\ the\ changed/unchanged\ parameters\ from\ the\ settings\ screen.\r\n\ \r\n\ @param\ plantHealth\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ plant's\ base\ health\ is\ multiplied\ by.\r\n\ @param\ plantDamage\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ plant's\ base\ damage\ is\ multiplied\ by.\r\n\ @param\ plantAttackSpeed\ \ \ \ \ \ The\ value\ each\ plant's\ base\ attack\ speed\ is\ multiplied\ by.\r\n\ @param\ zombieHealth\ \ \ \ \ \ \ \ \ \ The\ value\ each\ zombie's\ base\ health\ is\ multiplied\ by.\r\n\ @param\ zombieSpeed\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ zombie's\ base\ speed\ is\ multiplied\ by.\r\n\ @param\ zombieDamage\ \ \ \ \ \ \ \ \ \ The\ value\ each\ zombie's\ base\ damage\ is\ multiplied\ by.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ is\ called\ when\ the\ the\ code\ is\ running.\r\n\ Checks\ to\ see\ if\ the\ actor\ has\ been\ clicked\ on\ by\ a\ mouse.\r\n\ Changes\ the\ image\ when\ clicked\ for\ a\ brief\ moment.\r\n\ It\ also\ passes\ on\ the\ variable's\ values\ as\ well\ as\ changes\ worlds.\r\n
+comment3.params=pHealth\ pDamage\ pAttackSpeed\ zHealth\ zSpeed\ zDamage
+comment3.target=void\ update(double,\ double,\ double,\ double,\ double,\ double)
+comment3.text=\r\n\ Update\ method\ changes\ the\ values\ in\ the\ parameters\ so\ that\ the\ values\ can\ be\ kept\ and\ passed\ on\ to\ the\ other\ worlds.\r\n\ \r\n\ @param\ pHealth\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ plant's\ base\ health\ is\ multiplied\ by.\r\n\ @param\ pDamage\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ plant's\ base\ damage\ is\ multiplied\ by.\r\n\ @param\ pAttackSpeed\ \ \ \ \ \ The\ value\ each\ plant's\ base\ attack\ speed\ is\ multiplied\ by.\r\n\ @param\ zHealth\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ zombie's\ base\ health\ is\ multiplied\ by.\r\n\ @param\ zSpeed\ \ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ zombie's\ base\ speed\ is\ multiplied\ by.\r\n\ @param\ zDamage\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ zombie's\ base\ damage\ is\ multiplied\ by.\r\n
+numComments=4

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LosingScreen
+comment0.text=\r\n\ LosingScreen\ is\ a\ class\ that\ informs\ the\ user\ that\ they\ have\ lost.\r\n\ It\ slowly\ fades\ out\ before\ adding\ the\ GameOverScreen\ class.\r\n\ \r\n\ @author\ Charis\ \r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=LosingScreen()
+comment1.text=\r\n\ Constructor\ for\ the\ LosingScreen\ class.\r\n\ Sets\ the\ actCounter\ variable\ to\ 0.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ is\ called\ when\ the\ the\ code\ is\ running.\r\n\ Changes\ the\ transparency\ of\ the\ image\ ot\ make\ it\ slowly\ fade\ out\ every\ act.\r\n\ Removes\ object\ when\ it\ adds\ the\ GameoverScreen\ object\ and\ its\ transparency\ is\ 0.\r\n
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Flag
+comment0.text=\r\n\ An\ indication\ on\ whether\ the\ apocalypse\ event\ has\ spawned\ in\r\n\ \r\n\ @author\ Johnathan\ \r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Will\ check\ if\ Apocalypse\ is\ in\ the\ world,\ if\ it\ is\ not,\ then\ it\ will\ remove\ itself\ from\ the\ world\r\n
+numComments=2

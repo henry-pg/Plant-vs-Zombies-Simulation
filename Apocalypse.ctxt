@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Apocalypse
+comment0.text=\r\n\ Apocalypse\ is\ a\ Greenfoot\ Actor\ that\ sets\ a\ world-wide\ event.\ It\ will\ slowly\ disappear\ over\ the\ course\ of\ a\ few\ seconds.\ Apocalypse\ makes\ zombies\ spawn\ at\ a\ quickened\ pace\ and\ other\ than\ the\ fog,\ another\ indication\ is\ the\ flag\ zombie\ on\ the\ top\ right\ corner.\r\n\ \r\n\ @author\ Johnathan\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=Apocalypse()
+comment1.text=\r\n\ Initializes\ Apocalypse's\ values\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Spawns\ in\ flag\ indication\ along\ with\ reducing\ the\ transparency\ over\ time.\ Will\ remove\ from\ world\ (and\ set\ apocalypse\ to\ false\ after\ the\ duration\ has\ ended).\r\n
+numComments=3

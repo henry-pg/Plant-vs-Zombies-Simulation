@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MoreDeadZombie
+comment0.text=\r\n\ MoreDeadZombie\ is\ a\ Greenfoot\ Actor\ that\ displays\ a\ dead\ version\ of\ a\ zombie.\ It\ will\ slowly\ disappear\ over\ the\ course\ of\ a\ few\ seconds.\r\n\ \r\n\ @author\ Johnathan\ \r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Will\ start\ a\ timer\ once\ and\ will\ slowly\ reduce\ the\ transparency\ over\ time.\ After\ 3\ seconds,\ it\ will\ remove\ the\ object.\r\n
+numComments=2

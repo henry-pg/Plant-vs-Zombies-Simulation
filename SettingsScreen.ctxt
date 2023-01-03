@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=SettingsScreen
+comment0.text=\r\n\ The\ SettingsScreen\ is\ a\ subclass\ of\ the\ world\ that\ contains\ actor\ classes\ that\ allow\ the\ user\r\n\ to\ edit\ some\ of\ the\ parameters\ of\ the\ simulation.\ It\ contains\ the\ settings\ music\ as\ well\ as\ a\ way\ to\ switch\ worlds.\r\n\ \r\n\ @author\ Charis,\ Jonathan,\ Henry\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=SettingsScreen()
+comment1.text=\r\n\ A\ simple\ constructor\ that\ contains\ and\ initializes\ multiple\ variables\ \r\n
+comment2.params=plantHealth\ plantDamage\ plantAttackSpeed\ zombieHealth\ zombieSpeed\ zombieDamage
+comment2.target=SettingsScreen(double,\ double,\ double,\ double,\ double,\ double)
+comment2.text=\r\n\ The\ constructor\ that\ contains\ and\ initializes\ multiple\ variables.\r\n\ \r\n\ @param\ plantHealth\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ plant's\ base\ health\ is\ multiplied\ by.\r\n\ @param\ plantDamage\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ plant's\ base\ damage\ is\ multiplied\ by.\r\n\ @param\ plantAttackSpeed\ \ \ \ \ \ The\ value\ each\ plant's\ base\ attack\ speed\ is\ multiplied\ by.\r\n\ @param\ zombieHealth\ \ \ \ \ \ \ \ \ \ The\ value\ each\ zombie's\ base\ health\ is\ multiplied\ by.\r\n\ @param\ zombieSpeed\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ zombie's\ base\ speed\ is\ multiplied\ by.\r\n\ @param\ zombieDamage\ \ \ \ \ \ \ \ \ \ The\ value\ each\ zombie's\ base\ damage\ is\ multiplied\ by.\r\n
+comment3.params=
+comment3.target=void\ started()
+comment3.text=\r\n\ Starts\ music\ when\ code\ is\ running.\r\n
+comment4.params=
+comment4.target=void\ stopped()
+comment4.text=\r\n\ Stops\ the\ music\ when\ the\ code\ is\ paused.\r\n
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\r\n\ Act\ method\ is\ called\ when\ the\ the\ code\ is\ running.\r\n\ Button3\ is\ set\ to\ true\ to\ prevent\ the\ world\ from\ adding\ buttons\ indefinitely.\r\n
+comment6.params=
+comment6.target=void\ stopMusic()
+comment6.text=\r\n\ Stops\ the\ music\ when\ method\ is\ called.\r\n
+numComments=7

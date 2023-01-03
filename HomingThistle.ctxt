@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=HomingThistle
+comment0.text=\r\n\ This\ is\ the\ Homing\ Thistle\ Plant.\r\n\ \r\n\ @author\ Henry,\ Ethan\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=HomingThistle()
+comment1.text=\r\n\ Constructor\ for\ HomingThistle.\ Calls\ upon\ the\ superclass'\ constructor\ \r\n\ and\ sets\ other\ important\ variables.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ the\ HomingThistle.\ Sets\ the\ shooting\ rate\ and\ calls\ upon\ the\ \r\n\ superclass'\ act\ method.\r\n
+comment3.params=
+comment3.target=void\ attack()
+comment3.text=\r\n\ Method\ for\ the\ HomingThistle\ to\ attack\ zombies.\ Spawns\ a\ Thistle\ at\ set\ intervals.\r\n
+comment4.params=
+comment4.target=void\ frozenEffect()
+comment4.text=\r\n\ Method\ to\ change\ the\ HomingThistle's\ shooting\ rate\ when\ under\ the\ frozen\ effect\r\n
+comment5.params=
+comment5.target=void\ normalEffect()
+comment5.text=\r\n\ Method\ to\ change\ the\ HomingThistle's\ shooting\ rate\ back\ to\ normal\r\n
+numComments=6

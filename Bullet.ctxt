@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Bullet
+comment0.text=\r\n\ This\ is\ the\ Projectile\ that\ Crazy\ Dave\ shoots.\r\n\ \r\n\ @author\ Ethan\r\n\ @version\ April\ 2022\r\n
+comment1.params=rotation
+comment1.target=Bullet(double)
+comment1.text=\r\n\ Constructor\ for\ Bullet.\ Sets\ the\ Bullet's\ speed\ and\ damage\r\n\ \r\n\ @param\ rotation\ \ Crazy\ Dave's\ rotation\ when\ he\ fires\ the\ Bullet.\ The\ Bullet\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ inherits\ this\ rotation\ so\ that\ it\ will\ move\ towards\ the\ Zombie\ that\ Crazy\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Dave\ is\ facing.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ Bullet.\ Calls\ upon\ the\ Projectile\ superclass'\ act\ method.\ \r\n
+comment3.params=
+comment3.target=void\ hitZombie()
+comment3.text=\r\n\ Bullet's\ hitZombie\ method\ that\ does\ the\ same\ thing\ as\ the\ superclass'\r\n\ method\ but\ does\ not\ play\ the\ splat\ sound\ effect.\r\n
+numComments=4

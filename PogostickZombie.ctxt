@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PogostickZombie
+comment0.text=\r\n\ Refer\ to\ the\ Zombie\ super\ class.\ PogostickZombie\ is\ a\ Greenfoot\ Actor\ that\ is\ a\ quick\ zombie.\r\n\ \r\n\ @author\ Johnathan\r\n\ @version\ April\ 2022\r\n
+comment1.params=
+comment1.target=PogostickZombie()
+comment1.text=\r\n\ Constructor\ for\ BucketheadZombie's\ values\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Refer\ to\ the\ Zombie\ act\ method.\r\n
+comment3.params=speed
+comment3.target=void\ walk(double)
+comment3.text=\r\n\ Allows\ the\ zombie\ to\ walk\ in\ a\ janky\ way.\r\n\ \r\n\ @param\ speed\ \ \ \ \ The\ speed\ of\ which\ the\ zombie\ will\ move\r\n
+comment4.params=plant\ chewDamage
+comment4.target=void\ chew(Plant,\ int)
+comment4.text=\r\n\ Chews\ the\ plant.\ It\ will\ jump\ up\ and\ down\ almost\ like\ it\ is\ stomping\ on\ the\ plant\ every\ time.\ The\ zombie\ will\ cause\ the\ plant's\ health\ to\ diminish.\r\n\ \r\n\ @param\ plant\ \ \ \ \ \ \ \ \ The\ plant\ that\ will\ be\ taking\ the\ damage\r\n\ @param\ chewDamage\ \ \ \ The\ amount\ of\ damage\ per\ chew\r\n
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment5.text=\r\n\ Will\ return\ the\ type\ of\ zombie\r\n\ \r\n\ @return\ String\ \ \ returns\ the\ type\ of\ the\ zombie\ \r\n
+comment6.params=
+comment6.target=void\ die()
+comment6.text=\r\n\ Checks\ if\ its\ health\ is\ below\ or\ equal\ to\ 0\ and\ will\ remove\ the\ \r\n\ zombie\ from\ the\ world\ if\ it\ fulfills\ the\ requirement.\r\n
+numComments=7

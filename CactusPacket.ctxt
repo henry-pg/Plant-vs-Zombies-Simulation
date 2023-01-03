@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CactusPacket
+comment0.text=\r\n\ Refer\ to\ super\ class.\ Class\ for\ cactus\ packet.\r\n
+comment1.params=finalY
+comment1.target=CactusPacket(int)
+comment1.text=\r\n\ Initializes\ cactus\ packet\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Will\ only\ add\ 1\ respective\ plant\ in\r\n
+comment3.params=
+comment3.target=void\ spawnPlant()
+comment3.text=\r\n\ Makes\ plant\ invisible\ until\ the\ packet\ hits\ the\ final\ y-coords\r\n
+numComments=4

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TitleScreen
+comment0.text=\r\n\ TitleScreen\ is\ a\ subclass\ of\ the\ World\ class\ that\ contains\ the\ values\ to\ be\ passed\ on\ to\ the\ ZombieWorld\ class.\r\n\ It\ also\ contains\ music\ that\ plays\ and\ stops\ when\ the\ world\ or\ another\ world\ is\ called.\r\n\ \r\n\ @author\ Charis,\ Jonathan,\ Henry\r\n\ @version\ April\ 2022\r\n
+comment1.params=plantHealth\ plantDamage\ plantAttackSpeed\ zombieHealth\ zombieSpeed\ zombieDamage
+comment1.target=TitleScreen(double,\ double,\ double,\ double,\ double,\ double)
+comment1.text=\r\n\ Main\ constructor\ for\ the\ TitleScreen\ that\ contains\ the\ main\ menu\ music.\ It\ also\ holds\ \r\n\ the\ changed\ or\ unchanged\ parameters\ values\ to\ pass\ on\ to\ the\ ButtonPlay\ class.\r\n\ \r\n\ @param\ plantHealth\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ plant's\ base\ health\ is\ multiplied\ by.\r\n\ @param\ plantDamage\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ plant's\ base\ damage\ is\ multiplied\ by.\r\n\ @param\ plantAttackSpeed\ \ \ \ \ \ The\ value\ each\ plant's\ base\ attack\ speed\ is\ multiplied\ by.\r\n\ @param\ zombieHealth\ \ \ \ \ \ \ \ \ \ The\ value\ each\ zombie's\ base\ health\ is\ multiplied\ by.\r\n\ @param\ zombieSpeed\ \ \ \ \ \ \ \ \ \ \ The\ value\ each\ zombie's\ base\ speed\ is\ multiplied\ by.\r\n\ @param\ zombieDamage\ \ \ \ \ \ \ \ \ \ The\ value\ each\ zombie's\ base\ damage\ is\ multiplied\ by.\r\n
+comment2.params=
+comment2.target=void\ started()
+comment2.text=\r\n\ Starts\ music\ when\ code\ is\ running.\r\n
+comment3.params=
+comment3.target=void\ stopped()
+comment3.text=\r\n\ Stops\ the\ music\ when\ the\ code\ is\ paused.\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ method\ is\ called\ when\ the\ the\ code\ is\ running.\r\n\ Button1\ and\ button2\ is\ set\ to\ true\ to\ prevent\ the\ world\ from\ adding\ buttons\ indefinitely.\r\n
+comment5.params=
+comment5.target=void\ stopMusic()
+comment5.text=\r\n\ Stops\ the\ music\ when\ method\ is\ called.\r\n
+numComments=6
